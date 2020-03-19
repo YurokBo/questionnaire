@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+}
+.poll {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+}
+
+.poll__title {
+    margin-bottom: 20px;
+}
+
+.poll__answers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.poll__answer {
+    background-color: yellow;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.poll__answer:last-child {
+    margin-bottom: 0;
+}
+
+.poll__answer:hover{
+    background-color: green;
+ }
