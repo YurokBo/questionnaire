@@ -18,6 +18,7 @@ const loadPoll = () => {
               </button>`);
 
             pollAnswers.innerHTML = htmlData.join('');
+
         } )
 };
 
@@ -57,7 +58,7 @@ document.addEventListener('click', e => {
            `);
 
             pollAnswers.innerHTML =  htmlData.join('');
-
+            pollAnswers.style.flexDirection = 'column';
 
         });
 

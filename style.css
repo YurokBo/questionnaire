@@ -18,15 +18,18 @@ body {
 
 .poll__answers {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-self: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    /*align-self: center;*/
 }
 
 .poll__answer {
     background-color: yellow;
     margin-bottom: 5px;
     cursor: pointer;
+    width: 150px;
+    height: 50px;
 }
 
 .poll__answer:last-child {
